@@ -1,5 +1,6 @@
 {
-  "Version": 80,
+  "Name": "Rifampicin-Model",
+  "Version": 81,
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -10,12 +11,14 @@
         {
           "Path": "CYP3A4|Reference concentration",
           "Value": 4.32,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP3A4|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP3A4|t1/2 (liver)",
@@ -27,51 +30,63 @@
         },
         {
           "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
+          "Value": 0.0041682898325,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
+          "Value": 0.00078691079081,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
+          "Value": 0.0053603428126,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
+          "Value": 0.00042695753798,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
@@ -88,117 +103,145 @@
         {
           "Path": "AADAC|Reference concentration",
           "Value": 1.0,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "AADAC|Relative expression in blood cells",
-          "Value": 3.9102564103E-05
+          "Value": 3.9102564103E-05,
+          "ValueOrigin": {}
         },
         {
           "Path": "AADAC|Relative expression in plasma",
-          "Value": 3.9102564103E-05
+          "Value": 3.9102564103E-05,
+          "ValueOrigin": {}
         },
         {
           "Path": "AADAC|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "AADAC|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Bone|Intracellular|AADAC|Relative expression",
-          "Value": 4.8717948718E-05
+          "Value": 4.8717948718E-05,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|AADAC|Relative expression",
-          "Value": 3.9743589744E-05
+          "Value": 3.9743589744E-05,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|AADAC|Relative expression",
-          "Value": 0.0011923076923
+          "Value": 0.0011923076923,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Heart|Intracellular|AADAC|Relative expression",
-          "Value": 0.0026602564103
+          "Value": 0.0026602564103,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|AADAC|Relative expression",
-          "Value": 5.7051282051E-05
+          "Value": 5.7051282051E-05,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Intracellular|AADAC|Relative expression",
-          "Value": 0.00010384615385
+          "Value": 0.00010384615385,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|AADAC|Relative expression",
-          "Value": 0.00010384615385
+          "Value": 0.00010384615385,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|AADAC|Relative expression",
-          "Value": 0.00010384615385
+          "Value": 0.00010384615385,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|AADAC|Relative expression",
-          "Value": 0.00010384615385
+          "Value": 0.00010384615385,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|AADAC|Relative expression",
-          "Value": 0.00010384615385
+          "Value": 0.00010384615385,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|AADAC|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|AADAC|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|AADAC|Relative expression",
-          "Value": 0.0269230769
+          "Value": 0.0269230769,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Muscle|Intracellular|AADAC|Relative expression",
-          "Value": 0.00020833333333
+          "Value": 0.00020833333333,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Pancreas|Intracellular|AADAC|Relative expression",
-          "Value": 0.1474358974
+          "Value": 0.1474358974,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|AADAC|Relative expression",
-          "Value": 0.2544871795
+          "Value": 0.2544871795,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|AADAC|Relative expression",
-          "Value": 0.2544871795
+          "Value": 0.2544871795,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|AADAC|Relative expression",
-          "Value": 0.2544871795
+          "Value": 0.2544871795,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|AADAC|Relative expression",
-          "Value": 0.2544871795
+          "Value": 0.2544871795,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|AADAC|Relative expression",
-          "Value": 0.2544871795
+          "Value": 0.2544871795,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|AADAC|Relative expression",
-          "Value": 0.2544871795
+          "Value": 0.2544871795,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Spleen|Intracellular|AADAC|Relative expression",
-          "Value": 0.00037115384615
+          "Value": 0.00037115384615,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Stomach|Intracellular|AADAC|Relative expression",
-          "Value": 0.0775641026
+          "Value": 0.0775641026,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
@@ -211,95 +254,118 @@
       "Parameters": [
         {
           "Path": "Organism|Bone|Intracellular|P-gp|Relative expression",
-          "Value": 0.0242518189
+          "Value": 0.0242518189,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|P-gp|Relative expression",
-          "Value": 0.07608904
+          "Value": 0.07608904,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|P-gp|Relative expression",
-          "Value": 0.017417973
+          "Value": 0.017417973,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Heart|Intracellular|P-gp|Relative expression",
-          "Value": 0.0419198106
+          "Value": 0.0419198106,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|P-gp|Relative expression",
-          "Value": 0.7092198582
+          "Value": 0.7092198582,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Intracellular|P-gp|Relative expression",
-          "Value": 0.1108416465
+          "Value": 0.1108416465,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|P-gp|Relative expression",
-          "Value": 0.3971631206
+          "Value": 0.3971631206,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|P-gp|Relative expression",
-          "Value": 0.3971631206
+          "Value": 0.3971631206,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|P-gp|Relative expression",
-          "Value": 0.3971631206
+          "Value": 0.3971631206,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|P-gp|Relative expression",
-          "Value": 0.3971631206
+          "Value": 0.3971631206,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|P-gp|Relative expression",
-          "Value": 0.1916810428
+          "Value": 0.1916810428,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|P-gp|Relative expression",
-          "Value": 0.1916810428
+          "Value": 0.1916810428,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|P-gp|Relative expression",
-          "Value": 0.0657549316
+          "Value": 0.0657549316,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Muscle|Intracellular|P-gp|Relative expression",
-          "Value": 0.0128342959
+          "Value": 0.0128342959,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Pancreas|Intracellular|P-gp|Relative expression",
-          "Value": 0.0142510689
+          "Value": 0.0142510689,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|P-gp|Relative expression",
-          "Value": 0.2808543974
+          "Value": 0.2808543974,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|P-gp|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|P-gp|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|P-gp|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|P-gp|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|P-gp|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Spleen|Intracellular|P-gp|Relative expression",
-          "Value": 0.0742555691
+          "Value": 0.0742555691,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Stomach|Intracellular|P-gp|Relative expression",
-          "Value": 0.0260852897
+          "Value": 0.0260852897,
+          "ValueOrigin": {}
         },
         {
           "Path": "P-gp|Reference concentration",
@@ -312,12 +378,14 @@
         {
           "Path": "P-gp|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "P-gp|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         }
       ],
       "TransportType": "Efflux",
@@ -808,45 +876,55 @@
         {
           "Path": "OATP1B1|Reference concentration",
           "Value": 1.0,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "OATP1B1|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "OATP1B1|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.00014166666667
+          "Value": 0.00014166666667,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.0141666667
+          "Value": 0.0141666667,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Heart|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.0008253968254
+          "Value": 0.0008253968254,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|OATP1B1|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|OATP1B1|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
-          "Value": 4.0079365079E-05
+          "Value": 4.0079365079E-05,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Muscle|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.00064682539683
+          "Value": 0.00064682539683,
+          "ValueOrigin": {}
         }
       ],
       "TransportType": "Influx",
@@ -1088,108 +1166,134 @@
         {
           "Path": "ATP1A2|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "ATP1A2|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Bone|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0062154033171
+          "Value": 0.0062154033171,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|ATP1A2|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0508741242
+          "Value": 0.0508741242,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Heart|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.3179118843
+          "Value": 0.3179118843,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0158938619
+          "Value": 0.0158938619,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0786998764
+          "Value": 0.0786998764,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0786998764
+          "Value": 0.0786998764,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0786998764
+          "Value": 0.0786998764,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0786998764
+          "Value": 0.0786998764,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0786998764
+          "Value": 0.0786998764,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0223784807
+          "Value": 0.0223784807,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0223784807
+          "Value": 0.0223784807,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0272345453
+          "Value": 0.0272345453,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Muscle|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.7034193524
+          "Value": 0.7034193524,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Pancreas|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0073903254795
+          "Value": 0.0073903254795,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Skin|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0389467988
+          "Value": 0.0389467988,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0501579923
+          "Value": 0.0501579923,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0501579923
+          "Value": 0.0501579923,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0501579923
+          "Value": 0.0501579923,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0501579923
+          "Value": 0.0501579923,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0501579923
+          "Value": 0.0501579923,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0501579923
+          "Value": 0.0501579923,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Spleen|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0103243118
+          "Value": 0.0103243118,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Stomach|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0309435884
+          "Value": 0.0309435884,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Interstitial, BloodCellsMembrane, VascMembranePlasmaSide"
@@ -1202,11 +1306,13 @@
       "Parameters": [
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|UGT1A4|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|UGT1A4|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "UGT1A4|Reference concentration",
@@ -1219,12 +1325,14 @@
         {
           "Path": "UGT1A4|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "UGT1A4|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
@@ -1249,16 +1357,19 @@
         {
           "Path": "GABRG2|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "GABRG2|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|GABRG2|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Interstitial, BloodCellsMembrane, VascMembranePlasmaSide"
@@ -1435,17 +1546,20 @@
             {
               "Name": "Enzyme concentration",
               "Value": 1.0,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "Vmax",
               "Value": 6.5,
-              "Unit": "µmol/l/min"
+              "Unit": "µmol/l/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
               "Value": 195.1,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "kcat",
@@ -1467,17 +1581,20 @@
             {
               "Name": "Transporter concentration",
               "Value": 60.0,
-              "Unit": "nmol/l"
+              "Unit": "nmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "Vmax",
               "Value": 2.87,
-              "Unit": "µmol/l/min"
+              "Unit": "µmol/l/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
               "Value": 55.0,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "kcat",
@@ -1499,17 +1616,20 @@
             {
               "Name": "Transporter concentration",
               "Value": 109.6,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "Vmax",
               "Value": 0.372,
-              "Unit": "µmol/l/min"
+              "Unit": "µmol/l/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
               "Value": 1.5,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "kcat",
@@ -1679,11 +1799,13 @@
             {
               "Name": "EC50",
               "Value": 0.34,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "Emax",
-              "Value": 0.65
+              "Value": 0.65,
+              "ValueOrigin": {}
             }
           ]
         },
@@ -1719,11 +1841,13 @@
             {
               "Name": "EC50",
               "Value": 0.34,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "Emax",
-              "Value": 0.8
+              "Value": 0.8,
+              "ValueOrigin": {}
             }
           ]
         },
@@ -1838,7 +1962,8 @@
         {
           "Name": "Molecular weight",
           "Value": 822.94,
-          "Unit": "g/mol"
+          "Unit": "g/mol",
+          "ValueOrigin": {}
         }
       ]
     }
@@ -1858,17 +1983,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 300.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Infusion time",
           "Value": 30.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1880,17 +2008,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 300.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Infusion time",
           "Value": 180.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1902,17 +2033,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 450.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Infusion time",
           "Value": 180.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1924,17 +2058,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 600.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Infusion time",
           "Value": 30.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1946,17 +2083,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 600.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Infusion time",
           "Value": 180.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1974,17 +2114,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 600.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Infusion time",
                   "Value": 180.0,
-                  "Unit": "min"
+                  "Unit": "min",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1993,7 +2136,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
@@ -2023,17 +2167,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 300.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -2045,17 +2192,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 450.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -2067,17 +2217,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 600.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -2096,17 +2249,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 600.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -2115,7 +2271,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
@@ -2152,17 +2309,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 450.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -2171,7 +2331,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
@@ -2208,17 +2369,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 600.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -2227,7 +2391,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
@@ -2264,17 +2429,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 600.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -2283,7 +2451,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
@@ -2313,17 +2482,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 600.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -2365,17 +2537,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 600.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -2391,12 +2566,14 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -2461,17 +2638,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -2480,56 +2660,66 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 168.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Events|iv 600 mg (3 h) MD OD (7 days)|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|iv 600 mg (3 h) MD OD (7 days)|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 180.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|iv 600 mg (3 h) MD OD (7 days)|Application_2|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|iv 600 mg (3 h) MD OD (7 days)|No formulation|Application_2|ProtocolSchemaItem|Infusion time",
           "Value": 180.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|iv 600 mg (3 h) MD OD (7 days)|Application_3|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|iv 600 mg (3 h) MD OD (7 days)|No formulation|Application_3|ProtocolSchemaItem|Infusion time",
           "Value": 180.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|iv 600 mg (3 h) MD OD (7 days)|Application_4|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|iv 600 mg (3 h) MD OD (7 days)|No formulation|Application_4|ProtocolSchemaItem|Infusion time",
           "Value": 180.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|iv 600 mg (3 h) MD OD (7 days)|Application_5|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|iv 600 mg (3 h) MD OD (7 days)|No formulation|Application_5|ProtocolSchemaItem|Infusion time",
           "Value": 180.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|iv 600 mg (3 h) MD OD (7 days)|Application_6|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|iv 600 mg (3 h) MD OD (7 days)|No formulation|Application_6|ProtocolSchemaItem|Infusion time",
           "Value": 180.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|iv 600 mg (3 h) MD OD (7 days)|Application_7|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|iv 600 mg (3 h) MD OD (7 days)|No formulation|Application_7|ProtocolSchemaItem|Infusion time",
           "Value": 180.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -2585,97 +2775,7 @@
           }
         }
       ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Rifampicin iv 600 mg (3 h) MD OD (7 days)-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Rifampicin iv 600 mg (3 h) MD OD (7 days)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Acocella 1977 - mean 600 mg MD - Rifampicin - IV - 600 mg - Serum - agg. (n=5)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Acocella 1977 - mean 600 mg MD - Rifampicin - IV - 600 mg - Serum - agg. (n=5)|Time",
-              "Y": "Acocella 1977 - mean 600 mg MD - Rifampicin - IV - 600 mg - Serum - agg. (n=5)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Serum - agg. (n=6)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Serum - agg. (n=6)|Time",
-              "Y": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Serum - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Rifampicin iv 600 mg (3 h) MD OD (7 days)",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Rifampicin-Model2\nRifampicin iv 600 mg (3 h) MD OD (7 days)\n2019-05-13 13:18"
-        }
-      ],
+      "HasResults": false,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -2727,17 +2827,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -2746,7 +2849,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -2759,16 +2863,18 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Events|iv 300 mg (0.5 h)|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|iv 300 mg (0.5 h)|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 30.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -2818,75 +2924,7 @@
           }
         }
       ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Rifampicin iv 300 mg (0.5 h)-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Rifampicin iv 300 mg (0.5 h)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "sanofi-aventis U.S. LLC. 2013 - 300 mg - Rifampicin - IV - 300 mg - Plasma - agg. (n=12)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "sanofi-aventis U.S. LLC. 2013 - 300 mg - Rifampicin - IV - 300 mg - Plasma - agg. (n=12)|Time",
-              "Y": "sanofi-aventis U.S. LLC. 2013 - 300 mg - Rifampicin - IV - 300 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Rifampicin iv 300 mg (0.5 h)",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Rifampicin-Model\nRifampicin iv 300 mg (0.5 h)\n2020-02-10 11:53"
-        }
-      ],
+      "HasResults": false,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -2939,17 +2977,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -2958,7 +2999,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -2971,16 +3013,18 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Events|iv 300 mg (3 h)|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|iv 300 mg (3 h)|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 180.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3036,163 +3080,7 @@
           }
         }
       ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Rifampicin iv 300 mg (3 h)-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Rifampicin iv 300 mg (3 h)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Nitti 1977 - 300 mg - Rifampicin - IV - 300 mg - Serum - agg. (n=2)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Nitti 1977 - 300 mg - Rifampicin - IV - 300 mg - Serum - agg. (n=2)|Time",
-              "Y": "Nitti 1977 - 300 mg - Rifampicin - IV - 300 mg - Serum - agg. (n=2)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Rifampicin iv 300 mg (3 h)",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Rifampicin-Model\nRifampicin iv 300 mg (3 h)\n2020-02-10 11:53"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "mg",
-              "Dimension": "Amount",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Rifampicin iv 300 mg (3 h)-Rifampicin-Kidney-Urine-Amount in container",
-              "X": "Time",
-              "Y": "Rifampicin iv 300 mg (3 h)|Organism|Kidney|Urine|Rifampicin",
-              "CurveOptions": {
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Nitti 1977 - 300 mg - Rifampicin - IV - 300 mg - Urine - agg. (n=2)-Rifampicin-Kidney-Urine-ArithmeticMean",
-              "X": "Nitti 1977 - 300 mg - Rifampicin - IV - 300 mg - Urine - agg. (n=2)|Time",
-              "Y": "Nitti 1977 - 300 mg - Rifampicin - IV - 300 mg - Urine - agg. (n=2)|ObservedData|Kidney|Urine|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Rifampicin iv 300 mg (3 h) - Urine",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Rifampicin-Model\nRifampicin iv 300 mg (3 h)\n2020-02-10 11:53"
-        }
-      ],
+      "HasResults": false,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -3245,17 +3133,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -3264,7 +3155,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -3277,16 +3169,18 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Events|iv 450 mg (3 h)|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|iv 450 mg (3 h)|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 180.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3342,163 +3236,7 @@
           }
         }
       ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Rifampicin iv 450 mg (3 h)-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Rifampicin iv 450 mg (3 h)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Nitti 1977 - 450 mg - Rifampicin - IV - 450 mg - Serum - agg. (n=3)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Nitti 1977 - 450 mg - Rifampicin - IV - 450 mg - Serum - agg. (n=3)|Time",
-              "Y": "Nitti 1977 - 450 mg - Rifampicin - IV - 450 mg - Serum - agg. (n=3)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Rifampicin iv 450 mg (3 h)",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Rifampicin-Model\nRifampicin iv 450 mg (3 h)\n2020-02-10 11:54"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "mg",
-              "Dimension": "Amount",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Rifampicin iv 450 mg (3 h)-Rifampicin-Kidney-Urine-Amount in container",
-              "X": "Time",
-              "Y": "Rifampicin iv 450 mg (3 h)|Organism|Kidney|Urine|Rifampicin",
-              "CurveOptions": {
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Nitti 1977 - 450 mg - Rifampicin - IV - 450 mg - Urine - agg. (n=3)-Rifampicin-Kidney-Urine-ArithmeticMean",
-              "X": "Nitti 1977 - 450 mg - Rifampicin - IV - 450 mg - Urine - agg. (n=3)|Time",
-              "Y": "Nitti 1977 - 450 mg - Rifampicin - IV - 450 mg - Urine - agg. (n=3)|ObservedData|Kidney|Urine|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Rifampicin iv 450 mg (3 h) - Urine",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Rifampicin-Model\nRifampicin iv 450 mg (3 h)\n2020-02-10 11:54"
-        }
-      ],
+      "HasResults": false,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -3550,17 +3288,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -3569,7 +3310,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -3582,16 +3324,18 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Events|iv 600 mg (0.5 h)|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|iv 600 mg (0.5 h)|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 30.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3641,75 +3385,7 @@
           }
         }
       ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Rifampicin iv 600 mg (0.5 h)-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Rifampicin iv 600 mg (0.5 h)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "sanofi-aventis U.S. LLC. 2013 - 600 mg - Rifampicin - IV - 600 mg - Plasma - agg. (n=12)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "sanofi-aventis U.S. LLC. 2013 - 600 mg - Rifampicin - IV - 600 mg - Plasma - agg. (n=12)|Time",
-              "Y": "sanofi-aventis U.S. LLC. 2013 - 600 mg - Rifampicin - IV - 600 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Rifampicin iv 600 mg (0.5 h)",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Rifampicin-Model\nRifampicin iv 600 mg (0.5 h)\n2020-02-10 11:55"
-        }
-      ],
+      "HasResults": false,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -3763,17 +3439,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -3782,7 +3461,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -3795,16 +3475,18 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Events|iv 600 mg (3 h)|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|iv 600 mg (3 h)|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 180.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3865,174 +3547,7 @@
           }
         }
       ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Rifampicin iv 600 mg (3 h)-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Rifampicin iv 600 mg (3 h)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Serum - agg. (n=6)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Serum - agg. (n=6)|Time",
-              "Y": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Serum - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Rifampicin iv 600 mg (3 h)",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Rifampicin-Model\nRifampicin iv 600 mg (3 h)\n2020-02-10 11:56"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "mg",
-              "Dimension": "Amount",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Rifampicin iv 600 mg (3 h)-Rifampicin-Kidney-Urine-Amount in container",
-              "X": "Time",
-              "Y": "Rifampicin iv 600 mg (3 h)|Organism|Kidney|Urine|Rifampicin",
-              "CurveOptions": {
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Acocella 1977 - mean 600 mg MD - Rifampicin - IV - 600 mg - Urine - agg. (n=5)-Rifampicin-Kidney-Urine-ArithmeticMean",
-              "X": "Acocella 1977 - mean 600 mg MD - Rifampicin - IV - 600 mg - Urine - agg. (n=5)|Time",
-              "Y": "Acocella 1977 - mean 600 mg MD - Rifampicin - IV - 600 mg - Urine - agg. (n=5)|ObservedData|Kidney|Urine|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Urine - agg. (n=6)-Rifampicin-Kidney-Urine-ArithmeticMean",
-              "X": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Urine - agg. (n=6)|Time",
-              "Y": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Urine - agg. (n=6)|ObservedData|Kidney|Urine|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Rifampicin iv 600 mg (3 h) - Urine",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Rifampicin-Model\nRifampicin iv 600 mg (3 h)\n2020-02-10 11:56"
-        }
-      ],
+      "HasResults": false,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -4090,17 +3605,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -4109,17 +3627,20 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 168.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -4128,37 +3649,44 @@
         {
           "Path": "Events|po 600 mg MD OD (7 days)|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 600 mg MD OD (7 days)|Oral solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 600 mg MD OD (7 days)|Oral solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 600 mg MD OD (7 days)|Oral solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 600 mg MD OD (7 days)|Oral solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 600 mg MD OD (7 days)|Oral solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 600 mg MD OD (7 days)|Oral solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -4244,141 +3772,7 @@
           }
         }
       ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Rifampicin po 600 mg MD OD (7 days)-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Rifampicin po 600 mg MD OD (7 days)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Blume 1989 - 600 mg REFERENZ - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Blume 1989 - 600 mg REFERENZ - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)|Time",
-              "Y": "Blume 1989 - 600 mg REFERENZ - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Peloquin 1997 - 600 mg - Rifampicin - PO - 600 mg - Plasma - agg. (n=24)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Peloquin 1997 - 600 mg - Rifampicin - PO - 600 mg - Plasma - agg. (n=24)|Time",
-              "Y": "Peloquin 1997 - 600 mg - Rifampicin - PO - 600 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Serum - agg. (n=6)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Serum - agg. (n=6)|Time",
-              "Y": "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Serum - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#008000",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Eon Labs Manufacturing, Inc. 1997 - 2X300mg Rifadine Tab - Rifampicin - PO - 600 mg - Plasma - agg. (n=36)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Eon Labs Manufacturing, Inc. 1997 - 2X300mg Rifadine Tab - Rifampicin - PO - 600 mg - Plasma - agg. (n=36)|Time",
-              "Y": "Eon Labs Manufacturing, Inc. 1997 - 2X300mg Rifadine Tab - Rifampicin - PO - 600 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF00FF",
-                "LegendIndex": 5,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Baneyx 2014 - Day 4 - 600 mg po MD - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Baneyx 2014 - Day 4 - 600 mg po MD - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)|Time",
-              "Y": "Baneyx 2014 - Day 4 - 600 mg po MD - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF8000",
-                "LegendIndex": 6,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Baneyx 2014 - Day 7 - 600 mg po MD - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Baneyx 2014 - Day 7 - 600 mg po MD - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)|Time",
-              "Y": "Baneyx 2014 - Day 7 - 600 mg po MD - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF8000",
-                "LegendIndex": 7,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Furesz 1970 - 600 mg - Rifampicin - PO - 600 mg - Serum - agg. (n=12)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Furesz 1970 - 600 mg - Rifampicin - PO - 600 mg - Serum - agg. (n=12)|Time",
-              "Y": "Furesz 1970 - 600 mg - Rifampicin - PO - 600 mg - Serum - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#C000C0",
-                "LegendIndex": 8,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Rifampicin po 600 mg MD OD (7 days)",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "BottomInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Rifampicin-Model\nRifampicin po 600 mg MD OD (7 days)\n2020-02-10 12:00"
-        }
-      ],
+      "HasResults": false,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -4432,17 +3826,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -4451,7 +3848,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -4464,7 +3862,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -4473,7 +3872,8 @@
         {
           "Path": "Events|po 300 mg|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -4539,101 +3939,7 @@
           }
         }
       ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "Min": -0.5800238,
-              "Max": 22.9674,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0214104,
-              "Max": 9.406103,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Rifampicin po 300 mg-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Rifampicin po 300 mg|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Chouchane 1995 - Rimactan - Rifampicin - PO - 300 mg - Plasma - agg. (n=12)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Chouchane 1995 - Rimactan - Rifampicin - PO - 300 mg - Plasma - agg. (n=12)|Time",
-              "Y": "Chouchane 1995 - Rimactan - Rifampicin - PO - 300 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Chouchane 1995 - Rifampicin Generic - Rifampicin - PO - 300 mg - Plasma - agg. (n=12)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Chouchane 1995 - Rifampicin Generic - Rifampicin - PO - 300 mg - Plasma - agg. (n=12)|Time",
-              "Y": "Chouchane 1995 - Rifampicin Generic - Rifampicin - PO - 300 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Furesz 1970 - 300 mg - Rifampicin - PO - 300 mg - Serum - agg. (n=5)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Furesz 1970 - 300 mg - Rifampicin - PO - 300 mg - Serum - agg. (n=5)|Time",
-              "Y": "Furesz 1970 - 300 mg - Rifampicin - PO - 300 mg - Serum - agg. (n=5)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#008000",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Rifampicin po 300 mg",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Rifampicin-Model\nRifampicin po 300 mg\n2020-02-10 11:58"
-        }
-      ],
+      "HasResults": false,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -4687,17 +3993,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -4706,7 +4015,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -4719,7 +4029,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -4728,7 +4039,8 @@
         {
           "Path": "Events|po 450 mg|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -4794,97 +4106,7 @@
           }
         }
       ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Rifampicin po 450 mg-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Rifampicin po 450 mg|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Serum - agg. (n=5)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Serum - agg. (n=5)|Time",
-              "Y": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Serum - agg. (n=5)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#008000",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Furesz 1970 - 450 mg - Rifampicin - PO - 450 mg - Serum - agg. (n=13)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Furesz 1970 - 450 mg - Rifampicin - PO - 450 mg - Serum - agg. (n=13)|Time",
-              "Y": "Furesz 1970 - 450 mg - Rifampicin - PO - 450 mg - Serum - agg. (n=13)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Blume 1989 - 450 mg REFERENZ - Rifampicin - PO - 450 mg - Plasma - agg. (n=8)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Blume 1989 - 450 mg REFERENZ - Rifampicin - PO - 450 mg - Plasma - agg. (n=8)|Time",
-              "Y": "Blume 1989 - 450 mg REFERENZ - Rifampicin - PO - 450 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Rifampicin po 450 mg",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Rifampicin-Model\nRifampicin po 450 mg\n2020-02-10 11:58"
-        }
-      ],
+      "HasResults": false,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -4942,17 +4164,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -4961,7 +4186,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -4974,7 +4200,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -4983,7 +4210,8 @@
         {
           "Path": "Events|po 600 mg|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -5070,200 +4298,7 @@
           }
         }
       ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "Min": -0.8250712,
-              "Max": 24.59259,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.03649712,
-              "Max": 16.19482,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Rifampicin po 600 mg-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Rifampicin po 600 mg|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Peloquin 1997 - 600 mg - Rifampicin - PO - 600 mg - Plasma - agg. (n=24)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Peloquin 1997 - 600 mg - Rifampicin - PO - 600 mg - Plasma - agg. (n=24)|Time",
-              "Y": "Peloquin 1997 - 600 mg - Rifampicin - PO - 600 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Blume 1989 - 600 mg REFERENZ - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Blume 1989 - 600 mg REFERENZ - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)|Time",
-              "Y": "Blume 1989 - 600 mg REFERENZ - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Serum - agg. (n=6)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Serum - agg. (n=6)|Time",
-              "Y": "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Serum - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#008000",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Furesz 1970 - 600 mg - Rifampicin - PO - 600 mg - Serum - agg. (n=12)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Furesz 1970 - 600 mg - Rifampicin - PO - 600 mg - Serum - agg. (n=12)|Time",
-              "Y": "Furesz 1970 - 600 mg - Rifampicin - PO - 600 mg - Serum - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF00FF",
-                "LegendIndex": 5,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Eon Labs Manufacturing, Inc. 1997 - 2X300mg Rifadine Tab - Rifampicin - PO - 600 mg - Plasma - agg. (n=36)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Eon Labs Manufacturing, Inc. 1997 - 2X300mg Rifadine Tab - Rifampicin - PO - 600 mg - Plasma - agg. (n=36)|Time",
-              "Y": "Eon Labs Manufacturing, Inc. 1997 - 2X300mg Rifadine Tab - Rifampicin - PO - 600 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF8000",
-                "LegendIndex": 6,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Eon Labs Manufacturing, Inc. 1997 - 2X300mg Tab (Eon) - Rifampicin - PO - 600 mg - Plasma - agg. (n=36)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Eon Labs Manufacturing, Inc. 1997 - 2X300mg Tab (Eon) - Rifampicin - PO - 600 mg - Plasma - agg. (n=36)|Time",
-              "Y": "Eon Labs Manufacturing, Inc. 1997 - 2X300mg Tab (Eon) - Rifampicin - PO - 600 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#800080",
-                "LegendIndex": 7,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Rifampicin po 600 mg",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Rifampicin\nRifampicin po 600 mg\n2021-05-04 19:29"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "mg",
-              "Dimension": "Amount",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Urine - agg. (n=6)-Rifampicin-Kidney-Urine-ArithmeticMean",
-              "X": "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Urine - agg. (n=6)|Time",
-              "Y": "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Urine - agg. (n=6)|ObservedData|Kidney|Urine|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Rifampicin-Kidney-Urine-Amount in container",
-              "X": "Time",
-              "Y": "Rifampicin po 600 mg|Organism|Kidney|Urine|Rifampicin",
-              "CurveOptions": {
-                "LegendIndex": 1
-              }
-            }
-          ],
-          "Name": "Rifampicin po 600 mg",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Rifampicin\nRifampicin po 600 mg\n2021-05-04 19:29"
-        }
-      ],
+      "HasResults": false,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -5318,17 +4353,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -5337,17 +4375,20 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 168.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -5356,37 +4397,44 @@
         {
           "Path": "Events|po 450 mg MD OD (7 days)|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 450 mg MD OD (7 days)|Oral solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 450 mg MD OD (7 days)|Oral solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 450 mg MD OD (7 days)|Oral solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 450 mg MD OD (7 days)|Oral solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 450 mg MD OD (7 days)|Oral solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 450 mg MD OD (7 days)|Oral solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -5459,248 +4507,7 @@
           }
         }
       ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Rifampicin po 450 mg MD OD (7 days)-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Rifampicin po 450 mg MD OD (7 days)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Serum - agg. (n=5)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Serum - agg. (n=5)|Time",
-              "Y": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Serum - agg. (n=5)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Acocella 1972a - day 7 - Rifampicin - PO - 450 mg - Serum - agg. (n=5)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Acocella 1972a - day 7 - Rifampicin - PO - 450 mg - Serum - agg. (n=5)|Time",
-              "Y": "Acocella 1972a - day 7 - Rifampicin - PO - 450 mg - Serum - agg. (n=5)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Rifampicin po 450 mg MD OD (7 days)",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Rifampicin-Model\nRifampicin po 450 mg MD OD (7 days)\n2020-03-12 14:58"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0,
-              "Max": 24.0,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "mg",
-              "Dimension": "Amount",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0,
-              "Max": 100.0,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Rifampicin po 450 mg MD OD (7 days)-Rifampicin-Kidney-Urine-Amount in container",
-              "X": "Time",
-              "Y": "Rifampicin po 450 mg MD OD (7 days)|Organism|Kidney|Urine|Rifampicin",
-              "CurveOptions": {
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Urine - agg. (n=5)-Rifampicin-Kidney-Urine-ArithmeticMean",
-              "X": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Urine - agg. (n=5)|Time",
-              "Y": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Urine - agg. (n=5)|ObservedData|Kidney|Urine|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Rifampicin po 450 mg MD OD (7 days) - Urine",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Rifampicin-Model\nRifampicin po 450 mg MD OD (7 days)\n2020-03-12 14:58"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0,
-              "Max": 24.0,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "mg",
-              "Dimension": "Amount",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0,
-              "Max": 25.0,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Rifampicin po 450 mg MD OD (7 days)-Rifampicin-Gallbladder-Amount in container",
-              "X": "Time",
-              "Y": "Rifampicin po 450 mg MD OD (7 days)|Organism|Gallbladder|Rifampicin",
-              "CurveOptions": {
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Bile - agg. (n=5)-Rifampicin-Liver-Undefined-ArithmeticMean",
-              "X": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Bile - agg. (n=5)|Time",
-              "Y": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Bile - agg. (n=5)|ObservedData|Liver|Undefined|Rifampicin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Rifampicin po 450 mg MD OD (7 days) - Bile",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Rifampicin-Model\nRifampicin po 450 mg MD OD (7 days)\n2020-03-12 14:58"
-        }
-      ],
+      "HasResults": false,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -5754,17 +4561,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 16.0,
-              "Unit": "day(s)"
+              "Unit": "day(s)",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -5773,82 +4583,98 @@
         {
           "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -5929,155 +4755,7 @@
           "Name": "Fold-change in concentration"
         }
       ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "CYP3A4-Liver Periportal-Intracellular-Fold-change in concentration",
-              "X": "Time",
-              "Y": "Rifampicin po 600 mg MD OD (16 days)|Organism|Liver|Periportal|Intracellular|CYP3A4|Fold-change in concentration",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#0000FF",
-                "LegendIndex": 2,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "Intracellular - agg. (n=8)-ObservedData-Duodenum-Intracellular-CYP3A4-ArithmeticMean",
-              "X": "Greiner 1999 - CYP3A4 western blot duodenal biopsy (fold-change) - CYP3A4 - PO - 600 mg - Duodenum|Intracellular - agg. (n=8)|Time",
-              "Y": "Greiner 1999 - CYP3A4 western blot duodenal biopsy (fold-change) - CYP3A4 - PO - 600 mg - Duodenum|Intracellular - agg. (n=8)|ObservedData|Duodenum|Intracellular|CYP3A4|ArithmeticMean",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF00FF",
-                "LegendIndex": 7,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Intracellular - agg. (n=8)-ObservedData-Duodenum-Intracellular-P-gp-ArithmeticMean",
-              "X": "Greiner 1999 - Pg-p western blot duodenal biopsy (fold-change) - P-gp - PO - 600 mg - Duodenum|Intracellular - agg. (n=8)|Time",
-              "Y": "Greiner 1999 - Pg-p western blot duodenal biopsy (fold-change) - P-gp - PO - 600 mg - Duodenum|Intracellular - agg. (n=8)|ObservedData|Duodenum|Intracellular|P-gp|ArithmeticMean",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF0000",
-                "LegendIndex": 8,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Intracellular - agg. (n=8)-ObservedData-Duodenum-Intracellular-P-gp-ArithmeticMean",
-              "X": "Westphal 2000 - Pg-p western blot duodenal biopsy (fold-change) - P-gp - PO - 600 mg - Duodenum|Intracellular - agg. (n=8)|Time",
-              "Y": "Westphal 2000 - Pg-p western blot duodenal biopsy (fold-change) - P-gp - PO - 600 mg - Duodenum|Intracellular - agg. (n=8)|ObservedData|Duodenum|Intracellular|P-gp|ArithmeticMean",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF0000",
-                "LegendIndex": 9,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "CYP3A4-Upper Jejunum-Intracellular-Fold-change in concentration",
-              "X": "Time",
-              "Y": "Rifampicin po 600 mg MD OD (16 days)|Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Fold-change in concentration",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#008000",
-                "LegendIndex": 5,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "CYP3A4-Duodenum-Intracellular-Fold-change in concentration",
-              "X": "Time",
-              "Y": "Rifampicin po 600 mg MD OD (16 days)|Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Fold-change in concentration",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF00FF",
-                "LegendIndex": 4,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "P-gp-Duodenum-Intracellular-Fold-change in concentration",
-              "X": "Time",
-              "Y": "Rifampicin po 600 mg MD OD (16 days)|Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|P-gp|Fold-change in concentration",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF0000",
-                "LegendIndex": 6,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Rifampicin po 600 mg MD OD (16 days)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "LegendIndex": 1
-              }
-            }
-          ],
-          "Name": "Rifampicin po 600 mg MD OD (7 days)",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "BottomInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Rifampicin\nRifampicin po 600 mg MD OD (16 days)\n2021-05-04 12:53"
-        }
-      ],
+      "HasResults": false,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -6129,7 +4807,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -6154,57 +4833,68 @@
         {
           "Path": "Events|Chattopadhyay 2018 - Rifampicin - 600 mg MD 11 days|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Chattopadhyay 2018 - Rifampicin - 600 mg MD 11 days|Oral solution|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Chattopadhyay 2018 - Rifampicin - 600 mg MD 11 days|Oral solution|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Chattopadhyay 2018 - Rifampicin - 600 mg MD 11 days|Oral solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Chattopadhyay 2018 - Rifampicin - 600 mg MD 11 days|Oral solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Chattopadhyay 2018 - Rifampicin - 600 mg MD 11 days|Oral solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Chattopadhyay 2018 - Rifampicin - 600 mg MD 11 days|Oral solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Chattopadhyay 2018 - Rifampicin - 600 mg MD 11 days|Oral solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Chattopadhyay 2018 - Rifampicin - 600 mg MD 11 days|Oral solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Chattopadhyay 2018 - Rifampicin - 600 mg MD 11 days|Oral solution|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Chattopadhyay 2018 - Rifampicin - 600 mg MD 11 days|Oral solution|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -6267,87 +4957,7 @@
           }
         }
       ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Rifampicin po 600 mg Chattopadhyay 2018|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Chattopadhyay 2018 - Rifampicin - Rifampicin - PO - 600 mg - Plasma - agg. (n=11)-Rifampicin-Peripheral Venous Blood-Plasma-GeometricMean",
-              "X": "Chattopadhyay 2018 - Rifampicin - Rifampicin - PO - 600 mg - Plasma - agg. (n=11)|Time",
-              "Y": "Chattopadhyay 2018 - Rifampicin - Rifampicin - PO - 600 mg - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|GeometricMean",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Rifampicin\nRifampicin po 600 mg Chattopadhyay 2018\n2021-05-05 10:48"
-        }
-      ],
+      "HasResults": false,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -6667,17 +5277,20 @@
             {
               "Name": "Start value",
               "Value": 2.5,
-              "Unit": "Log Units"
+              "Unit": "Log Units",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 2.0,
-              "Unit": "Log Units"
+              "Unit": "Log Units",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 3.5,
-              "Unit": "Log Units"
+              "Unit": "Log Units",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -6702,17 +5315,20 @@
             {
               "Name": "Start value",
               "Value": 0.6088,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 0.01,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 500.0,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -6737,17 +5353,20 @@
             {
               "Name": "Start value",
               "Value": 7.796,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 0.01,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 500.0,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -6772,17 +5391,20 @@
             {
               "Name": "Start value",
               "Value": 9.865,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 0.01,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 500.0,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -6807,17 +5429,20 @@
             {
               "Name": "Start value",
               "Value": 1.24E-05,
-              "Unit": "cm/min"
+              "Unit": "cm/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 3.48E-07,
-              "Unit": "cm/min"
+              "Unit": "cm/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 0.00348,
-              "Unit": "cm/min"
+              "Unit": "cm/min",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -6843,17 +5468,20 @@
             {
               "Name": "Start value",
               "Value": 36.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 24.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 150.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -6879,17 +5507,20 @@
             {
               "Name": "Start value",
               "Value": 36.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 24.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 150.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -6915,17 +5546,20 @@
             {
               "Name": "Start value",
               "Value": 36.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 24.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 150.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -6949,15 +5583,18 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 2.5
+              "Value": 2.5,
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 0.01
+              "Value": 0.01,
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 25.0
+              "Value": 25.0,
+              "ValueOrigin": {}
             }
           ]
         },
@@ -6983,17 +5620,20 @@
             {
               "Name": "Start value",
               "Value": 0.34,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 0.0001,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 1000.0,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7017,15 +5657,18 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 0.985
+              "Value": 0.985,
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 0.1
+              "Value": 0.1,
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 100.0
+              "Value": 100.0,
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7051,17 +5694,20 @@
             {
               "Name": "Start value",
               "Value": 0.34,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 0.0001,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 1000.0,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7085,15 +5731,18 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 0.383
+              "Value": 0.383,
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 0.1
+              "Value": 0.1,
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 100.0
+              "Value": 100.0,
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7119,17 +5768,20 @@
             {
               "Name": "Start value",
               "Value": 0.34,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 0.0001,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 1000.0,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7155,17 +5807,20 @@
             {
               "Name": "Start value",
               "Value": 2800.0,
-              "Unit": "mg/l"
+              "Unit": "mg/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 45.0,
-              "Unit": "mg/l"
+              "Unit": "mg/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 4500.0,
-              "Unit": "mg/l"
+              "Unit": "mg/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7191,17 +5846,20 @@
             {
               "Name": "Start value",
               "Value": 17.0,
-              "Unit": "%"
+              "Unit": "%",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 1.1,
-              "Unit": "%"
+              "Unit": "%",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 100.0,
-              "Unit": "%"
+              "Unit": "%",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7226,15 +5884,18 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 7.5
+              "Value": 7.5,
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 0.0
+              "Value": 0.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 14.0
+              "Value": 14.0,
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7260,17 +5921,20 @@
             {
               "Name": "Start value",
               "Value": 1.41,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 0.1,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 14.1,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7296,17 +5960,20 @@
             {
               "Name": "Start value",
               "Value": 1.0,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 0.1,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 10.0,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7428,15 +6095,18 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 0.1
+              "Value": 0.1,
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 10.0
+              "Value": 10.0,
+              "ValueOrigin": {}
             }
           ]
         }
@@ -7721,17 +6391,20 @@
             {
               "Name": "Start value",
               "Value": 2.62,
-              "Unit": "Log Units"
+              "Unit": "Log Units",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 2.0,
-              "Unit": "Log Units"
+              "Unit": "Log Units",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 3.5,
-              "Unit": "Log Units"
+              "Unit": "Log Units",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7756,17 +6429,20 @@
             {
               "Name": "Start value",
               "Value": 1.16,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 0.01,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 500.0,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7791,17 +6467,20 @@
             {
               "Name": "Start value",
               "Value": 12.7,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 0.01,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 500.0,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7826,17 +6505,20 @@
             {
               "Name": "Start value",
               "Value": 13.22,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 0.01,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 500.0,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7861,17 +6543,20 @@
             {
               "Name": "Start value",
               "Value": 1.66E-05,
-              "Unit": "cm/min"
+              "Unit": "cm/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 3.48E-07,
-              "Unit": "cm/min"
+              "Unit": "cm/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 0.00348,
-              "Unit": "cm/min"
+              "Unit": "cm/min",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7897,17 +6582,20 @@
             {
               "Name": "Start value",
               "Value": 36.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 24.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 150.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7933,17 +6621,20 @@
             {
               "Name": "Start value",
               "Value": 36.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 24.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 150.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7969,17 +6660,20 @@
             {
               "Name": "Start value",
               "Value": 36.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 24.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 150.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8003,15 +6697,18 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 2.5
+              "Value": 2.5,
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 0.01
+              "Value": 0.01,
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 25.0
+              "Value": 25.0,
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8037,17 +6734,20 @@
             {
               "Name": "Start value",
               "Value": 0.34,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 0.0001,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 1000.0,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8071,15 +6771,18 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 1.02
+              "Value": 1.02,
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 0.1
+              "Value": 0.1,
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 100.0
+              "Value": 100.0,
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8105,17 +6808,20 @@
             {
               "Name": "Start value",
               "Value": 0.34,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 0.0001,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 1000.0,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8139,15 +6845,18 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 0.71
+              "Value": 0.71,
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 0.1
+              "Value": 0.1,
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 100.0
+              "Value": 100.0,
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8173,17 +6882,20 @@
             {
               "Name": "Start value",
               "Value": 0.34,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 0.0001,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 1000.0,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8209,17 +6921,20 @@
             {
               "Name": "Start value",
               "Value": 2800.0,
-              "Unit": "mg/l"
+              "Unit": "mg/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 45.0,
-              "Unit": "mg/l"
+              "Unit": "mg/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 4500.0,
-              "Unit": "mg/l"
+              "Unit": "mg/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8245,17 +6960,20 @@
             {
               "Name": "Start value",
               "Value": 17.0,
-              "Unit": "%"
+              "Unit": "%",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 1.1,
-              "Unit": "%"
+              "Unit": "%",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 100.0,
-              "Unit": "%"
+              "Unit": "%",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8280,15 +6998,18 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 7.5
+              "Value": 7.5,
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 0.0
+              "Value": 0.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 14.0
+              "Value": 14.0,
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8314,17 +7035,20 @@
             {
               "Name": "Start value",
               "Value": 1.41,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 0.1,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 14.1,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8350,17 +7074,20 @@
             {
               "Name": "Start value",
               "Value": 1.0,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 0.1,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 10.0,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8482,15 +7209,18 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 0.1
+              "Value": 0.1,
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 10.0
+              "Value": 10.0,
+              "ValueOrigin": {}
             }
           ]
         }
@@ -8783,17 +7513,20 @@
             {
               "Name": "Start value",
               "Value": 2.5,
-              "Unit": "Log Units"
+              "Unit": "Log Units",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 2.0,
-              "Unit": "Log Units"
+              "Unit": "Log Units",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 3.5,
-              "Unit": "Log Units"
+              "Unit": "Log Units",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8819,17 +7552,20 @@
             {
               "Name": "Start value",
               "Value": 0.6088,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 0.01,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 500.0,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8855,17 +7591,20 @@
             {
               "Name": "Start value",
               "Value": 7.796,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 0.01,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 500.0,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8891,17 +7630,20 @@
             {
               "Name": "Start value",
               "Value": 9.865,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 0.01,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 500.0,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8927,17 +7669,20 @@
             {
               "Name": "Start value",
               "Value": 1.24E-05,
-              "Unit": "cm/min"
+              "Unit": "cm/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 3.48E-07,
-              "Unit": "cm/min"
+              "Unit": "cm/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 0.00348,
-              "Unit": "cm/min"
+              "Unit": "cm/min",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8962,15 +7707,18 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 2.5
+              "Value": 2.5,
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 0.01
+              "Value": 0.01,
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 25.0
+              "Value": 25.0,
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8997,17 +7745,20 @@
             {
               "Name": "Start value",
               "Value": 0.34,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 0.0001,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 1000.0,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -9032,15 +7783,18 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 0.985
+              "Value": 0.985,
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 0.1
+              "Value": 0.1,
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 100.0
+              "Value": 100.0,
+              "ValueOrigin": {}
             }
           ]
         },
@@ -9067,17 +7821,20 @@
             {
               "Name": "Start value",
               "Value": 0.34,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 0.0001,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 1000.0,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -9102,15 +7859,18 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 0.383
+              "Value": 0.383,
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 0.1
+              "Value": 0.1,
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 100.0
+              "Value": 100.0,
+              "ValueOrigin": {}
             }
           ]
         },
@@ -9137,17 +7897,20 @@
             {
               "Name": "Start value",
               "Value": 0.34,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 0.0001,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 1000.0,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -9174,17 +7937,20 @@
             {
               "Name": "Start value",
               "Value": 2800.0,
-              "Unit": "mg/l"
+              "Unit": "mg/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 45.0,
-              "Unit": "mg/l"
+              "Unit": "mg/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 4500.0,
-              "Unit": "mg/l"
+              "Unit": "mg/l",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -9620,198 +8386,6 @@
                   "LineStyle": "None",
                   "Symbol": "Circle"
                 }
-              },
-              {
-                "Name": "Rifampicin iv 600 mg (3 h) MD OD (7 days)-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Rifampicin iv 600 mg (3 h) MD OD (7 days)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#C000C0",
-                  "LegendIndex": 33
-                }
-              },
-              {
-                "Name": "Rifampicin po 300 mg-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Rifampicin po 300 mg|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#FF0000",
-                  "LegendIndex": 34
-                }
-              },
-              {
-                "Name": "Rifampicin po 450 mg-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Rifampicin po 450 mg|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#0000FF",
-                  "LegendIndex": 35
-                }
-              },
-              {
-                "Name": "Rifampicin po 600 mg-Rifampicin-Kidney-Urine-Amount in container",
-                "X": "Time",
-                "Y": "Rifampicin po 600 mg|Organism|Kidney|Urine|Rifampicin",
-                "CurveOptions": {
-                  "yAxisType": "Y2",
-                  "Color": "#FFFF00",
-                  "LegendIndex": 36,
-                  "LineStyle": "Dash"
-                }
-              },
-              {
-                "Name": "Rifampicin po 600 mg-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Rifampicin po 600 mg|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#FF8000",
-                  "LegendIndex": 37
-                }
-              },
-              {
-                "Name": "Rifampicin iv 600 mg (3 h)-Rifampicin-Kidney-Urine-Amount in container",
-                "X": "Time",
-                "Y": "Rifampicin iv 600 mg (3 h)|Organism|Kidney|Urine|Rifampicin",
-                "CurveOptions": {
-                  "yAxisType": "Y2",
-                  "Color": "#C04000",
-                  "LegendIndex": 38,
-                  "LineStyle": "Dash"
-                }
-              },
-              {
-                "Name": "Rifampicin iv 600 mg (3 h)-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Rifampicin iv 600 mg (3 h)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#C00000",
-                  "LegendIndex": 39
-                }
-              },
-              {
-                "Name": "Rifampicin iv 300 mg (3 h)-Rifampicin-Kidney-Urine-Amount in container",
-                "X": "Time",
-                "Y": "Rifampicin iv 300 mg (3 h)|Organism|Kidney|Urine|Rifampicin",
-                "CurveOptions": {
-                  "yAxisType": "Y2",
-                  "Color": "#8080FF",
-                  "LegendIndex": 40,
-                  "LineStyle": "Dash"
-                }
-              },
-              {
-                "Name": "Rifampicin iv 300 mg (3 h)-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Rifampicin iv 300 mg (3 h)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#0000C0",
-                  "LegendIndex": 41
-                }
-              },
-              {
-                "Name": "Rifampicin iv 600 mg (0.5 h)-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Rifampicin iv 600 mg (0.5 h)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#00FF00",
-                  "LegendIndex": 42
-                }
-              },
-              {
-                "Name": "Rifampicin iv 450 mg (3 h)-Rifampicin-Kidney-Urine-Amount in container",
-                "X": "Time",
-                "Y": "Rifampicin iv 450 mg (3 h)|Organism|Kidney|Urine|Rifampicin",
-                "CurveOptions": {
-                  "yAxisType": "Y2",
-                  "Color": "#C0C000",
-                  "LegendIndex": 43,
-                  "LineStyle": "Dash"
-                }
-              },
-              {
-                "Name": "Rifampicin iv 450 mg (3 h)-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Rifampicin iv 450 mg (3 h)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#808080",
-                  "LegendIndex": 44
-                }
-              },
-              {
-                "Name": "Rifampicin iv 300 mg (0.5 h)-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Rifampicin iv 300 mg (0.5 h)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#00C000",
-                  "LegendIndex": 45
-                }
-              },
-              {
-                "Name": "Rifampicin po 450 mg MD OD (7 days)-Rifampicin-Gallbladder-Amount in container",
-                "X": "Time",
-                "Y": "Rifampicin po 450 mg MD OD (7 days)|Organism|Gallbladder|Rifampicin",
-                "CurveOptions": {
-                  "yAxisType": "Y2",
-                  "Color": "#C00000",
-                  "LegendIndex": 46,
-                  "LineStyle": "Dash"
-                }
-              },
-              {
-                "Name": "Rifampicin po 450 mg MD OD (7 days)-Rifampicin-Kidney-Urine-Amount in container",
-                "X": "Time",
-                "Y": "Rifampicin po 450 mg MD OD (7 days)|Organism|Kidney|Urine|Rifampicin",
-                "CurveOptions": {
-                  "yAxisType": "Y2",
-                  "Color": "#FF00FF",
-                  "LegendIndex": 47,
-                  "LineStyle": "Dash"
-                }
-              },
-              {
-                "Name": "Rifampicin po 450 mg MD OD (7 days)-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Rifampicin po 450 mg MD OD (7 days)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#008000",
-                  "LegendIndex": 48
-                }
-              },
-              {
-                "Name": "Rifampicin po 600 mg MD OD (7 days)-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Rifampicin po 600 mg MD OD (7 days)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#00C0C0",
-                  "LegendIndex": 49
-                }
-              },
-              {
-                "Name": "Rifampicin po 600 mg Chattopadhyay 2018-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Rifampicin po 600 mg Chattopadhyay 2018|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#804040",
-                  "LegendIndex": 50
-                }
-              },
-              {
-                "Name": "Rifampicin po 600 mg MD OD (16 days)-CYP3A4-Duodenum-Intracellular-Fold-change in concentration",
-                "X": "Time",
-                "Y": "Rifampicin po 600 mg MD OD (16 days)|Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Fold-change in concentration",
-                "CurveOptions": {
-                  "Color": "#008080",
-                  "LegendIndex": 51
-                }
-              },
-              {
-                "Name": "Rifampicin po 600 mg MD OD (16 days)-P-gp-Duodenum-Intracellular-Fold-change in concentration",
-                "X": "Time",
-                "Y": "Rifampicin po 600 mg MD OD (16 days)|Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|P-gp|Fold-change in concentration",
-                "CurveOptions": {
-                  "Color": "#800080",
-                  "LegendIndex": 52
-                }
               }
             ],
             "Name": "Time Profile",
@@ -9959,7 +8533,7 @@
                 1.376471,
                 1.2,
                 0.6,
-                0.247058809
+                0.24705881
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -10130,7 +8704,7 @@
           "Values": [
             2.575E-05,
             6.582E-05,
-            8.87259957E-05,
+            8.8725996E-05,
             9.7737E-05,
             0.000109967004
           ],
@@ -10542,15 +9116,15 @@
                 "MolWeight": 822.94
               },
               "Values": [
-                0.440908164,
-                0.759341836,
+                0.44090816,
+                0.75934184,
                 1.4696939,
-                2.54746938,
-                3.50277042,
+                2.5474694,
+                3.5027704,
                 2.2535305,
-                1.22474492,
-                1.27373469,
-                1.00429082
+                1.2247449,
+                1.2737347,
+                1.0042908
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -10716,11 +9290,11 @@
                 0.4503332,
                 0.20784609,
                 0.9699485,
-                0.240755066,
+                0.24075507,
                 4.122281,
                 2.217025,
-                2.45951223,
-                1.31635857,
+                2.4595122,
+                1.3163586,
                 0.7967434
               ],
               "Dimension": "Concentration (mass)",
@@ -10885,14 +9459,14 @@
               },
               "Values": [
                 0.18384777,
-                0.424264073,
-                0.410121948,
+                0.42426407,
+                0.41012195,
                 0.9192388,
                 2.91328,
-                1.59806132,
+                1.5980613,
                 0.834386,
-                0.282842726,
-                0.141421363
+                0.28284273,
+                0.14142136
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -11945,7 +10519,7 @@
                 "MolWeight": 822.94
               },
               "Values": [
-                1.93879986,
+                1.9387999,
                 3.219,
                 3.038,
                 2.2875,
@@ -12319,7 +10893,7 @@
                 0.99,
                 1.21,
                 1.05,
-                0.969999969,
+                0.96999997,
                 0.82,
                 0.65
               ],
@@ -12492,7 +11066,7 @@
                 2.94,
                 2.94,
                 1.8,
-                1.93999994,
+                1.9399999,
                 1.06,
                 1.08,
                 0.91,
@@ -12519,7 +11093,7 @@
             4.4,
             3.59,
             2.8,
-            1.95999992,
+            1.9599999,
             1.46,
             1.18,
             0.85,
@@ -12663,15 +11237,15 @@
           },
           "Values": [
             0.116071455,
-            1.15759957,
-            6.32597876,
+            1.1575996,
+            6.3259788,
             9.119467,
-            6.46284533,
+            6.4628453,
             4.338339,
-            2.86005569,
-            1.66100609,
-            1.05098546,
-            0.224846348
+            2.8600557,
+            1.6610061,
+            1.0509855,
+            0.22484635
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -12809,10 +11383,10 @@
             "MolWeight": 822.94
           },
           "Values": [
-            6.39653969,
-            4.63535357,
-            2.83723354,
-            1.81520939
+            6.3965397,
+            4.6353536,
+            2.8372335,
+            1.8152094
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -15365,7 +13939,7 @@
             0.92,
             1.09,
             2.33,
-            3.98000026,
+            3.9800003,
             3.64,
             6.04,
             3.56
@@ -15505,7 +14079,7 @@
           "Values": [
             0.8,
             2.1,
-            3.89000034,
+            3.8900003,
             5.95,
             7.06,
             6.29,
@@ -15647,7 +14221,7 @@
                 "MolWeight": 822.94
               },
               "Values": [
-                1.69941159E-05
+                1.6994116E-05
               ],
               "Dimension": "Mass",
               "Unit": "kg"
@@ -15662,7 +14236,7 @@
             "MolWeight": 822.94
           },
           "Values": [
-            6.89100052E-05
+            6.8910005E-05
           ],
           "Dimension": "Mass",
           "Unit": "kg"
@@ -15792,7 +14366,7 @@
           },
           "Values": [
             9.009E-05,
-            7.49700048E-05,
+            7.4970005E-05,
             8.011E-05
           ],
           "Dimension": "Mass",
@@ -15926,7 +14500,7 @@
           "Values": [
             5.183E-05,
             6.361E-05,
-            5.68800024E-05
+            5.6880002E-05
           ],
           "Dimension": "Mass",
           "Unit": "kg"
@@ -16325,7 +14899,7 @@
           "Values": [
             7.107E-05,
             5.871E-05,
-            2.33799983E-05
+            2.3379998E-05
           ],
           "Dimension": "Mass",
           "Unit": "kg"
@@ -16459,23 +15033,23 @@
                 "MolWeight": 822.94
               },
               "Values": [
-                1.02859128,
-                1.65469027,
+                1.0285913,
+                1.6546903,
                 0.9615093,
-                3.53298736,
+                3.5329874,
                 3.3764627,
-                0.214662522,
-                1.92301857,
+                0.21466252,
+                1.9230186,
                 2.437314,
-                4.00256157,
+                4.0025616,
                 6.976532,
-                2.95160961,
+                2.9516096,
                 0.1878297,
-                3.19757724,
-                4.67338228,
-                1.92301857,
-                2.81744576,
-                1.87829709
+                3.1975772,
+                4.6733823,
+                1.9230186,
+                2.8174458,
+                1.8782971
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -16968,7 +15542,7 @@
             4.06,
             2.05,
             5.33,
-            7.79000044,
+            7.7900004,
             8.54,
             2.55,
             1.56,
@@ -17119,12 +15693,12 @@
             1.6,
             2.43,
             9.26,
-            15.3399992,
+            15.339999,
             10.01,
             0.48,
             6.13,
             7.04,
-            15.9699993,
+            15.969999,
             18.54,
             8.75,
             0.42,
@@ -17132,7 +15706,7 @@
             4.29,
             8.11,
             7.56,
-            3.84999967
+            3.8499997
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -17417,7 +15991,7 @@
             1.21,
             2.84,
             5.76,
-            7.72000027,
+            7.7200003,
             2.1
           ],
           "Dimension": "Concentration (mass)",
@@ -18513,7 +17087,7 @@
                 "MolWeight": 822.94
               },
               "Values": [
-                5.07984223E-05
+                5.0798422E-05
               ],
               "Dimension": "Mass",
               "Unit": "kg"
@@ -18808,9 +17382,9 @@
               },
               "Values": [
                 6.699508,
-                2.93102956,
-                2.57212973,
-                2.63194823
+                2.9310296,
+                2.5721297,
+                2.6319482
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -19116,16 +17690,16 @@
             "MolWeight": 822.94
           },
           "Values": [
-            1.98111275E-06,
+            1.9811127E-06,
             7.983716E-06,
             1.4129173E-05,
-            1.91294021E-05,
+            1.9129402E-05,
             3.329386E-05,
             4.216005E-05,
             4.687354E-05,
-            5.17305743E-05,
+            5.1730574E-05,
             5.429612E-05,
-            5.71480632E-05,
+            5.7148063E-05,
             5.97E-05
           ],
           "Dimension": "Mass",
@@ -19265,16 +17839,16 @@
             "MolWeight": 822.94
           },
           "Values": [
-            1.11278518E-06,
-            2.67965584E-06,
-            4.67749351E-06,
+            1.1127852E-06,
+            2.6796558E-06,
+            4.6774935E-06,
             7.105263E-06,
             9.103101E-06,
-            1.18186417E-05,
+            1.1818642E-05,
             1.3816134E-05,
-            1.61007083E-05,
-            1.88159047E-05,
-            2.08999991E-05
+            1.6100708E-05,
+            1.8815905E-05,
+            2.0899999E-05
           ],
           "Dimension": "Mass",
           "Unit": "kg"
@@ -19414,7 +17988,7 @@
           "Values": [
             9.009507,
             8.478077,
-            2.50730753,
+            2.5073075,
             0.61682874
           ],
           "Dimension": "Concentration (mass)",
@@ -19548,9 +18122,9 @@
           },
           "Values": [
             10.930047,
-            13.4417572,
+            13.441757,
             6.061627,
-            3.45727158
+            3.4572716
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -20153,7 +18727,7 @@
             5.355392,
             8.063281,
             8.567849,
-            7.88585854,
+            7.8858585,
             6.955317,
             5.075094,
             3.40202,
@@ -20777,7 +19351,7 @@
             0.005541281,
             0.007796511,
             0.006061679,
-            0.00295056449,
+            0.0029505645,
             0.0007699356,
             0.00015484012
           ],
@@ -20936,7 +19510,7 @@
             "MolWeight": 822.94
           },
           "Values": [
-            7.81370735,
+            7.8137074,
             9.126778,
             7.002258,
             5.779693,
@@ -22186,7 +20760,7 @@
           "Values": [
             27.7,
             22.51,
-            15.4400005,
+            15.440001,
             8.33,
             1.64
           ],
@@ -22323,13 +20897,13 @@
           },
           "Values": [
             1.333521,
-            4.82317924,
+            4.8231792,
             6.072022,
-            6.81292057,
+            6.8129206,
             7.079458,
             6.309573,
             4.381942,
-            2.92864513,
+            2.9286451,
             1.4399029,
             0.2712273,
             0.09809947
@@ -22621,10 +21195,10 @@
               "Values": [
                 3.3379283,
                 2.112314,
-                1.69838774,
-                1.50916672,
-                1.70689964,
-                2.13327527
+                1.6983877,
+                1.5091667,
+                1.7068996,
+                2.1332753
               ],
               "Dimension": "Dimensionless"
             }
@@ -22639,12 +21213,12 @@
             "LLOQ": 5E-09
           },
           "Values": [
-            0.0605684258,
+            0.060568426,
             0.02261017,
             0.01402274,
             0.008916791,
-            0.424754083,
-            0.0159085169
+            0.42475408,
+            0.015908517
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
