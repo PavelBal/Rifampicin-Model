@@ -108,12 +108,12 @@
         },
         {
           "Path": "AADAC|Relative expression in blood cells",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "AADAC|Relative expression in plasma",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
@@ -130,12 +130,12 @@
         },
         {
           "Path": "Organism|Bone|Intracellular|AADAC|Relative expression",
-          "Value": 4.8717948718E-05,
+          "Value": 4.8717948718e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|AADAC|Relative expression",
-          "Value": 3.9743589744E-05,
+          "Value": 3.9743589744e-05,
           "ValueOrigin": {}
         },
         {
@@ -150,7 +150,7 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|AADAC|Relative expression",
-          "Value": 5.7051282051E-05,
+          "Value": 5.7051282051e-05,
           "ValueOrigin": {}
         },
         {
@@ -616,17 +616,17 @@
           "Percentile": 0.0,
           "DistributionMetaData": [
             {
-              "Mean": 1E-14,
+              "Mean": 1e-14,
               "Deviation": 1.6,
               "Distribution": "LogNormal"
             },
             {
-              "Mean": 1.915059E-05,
+              "Mean": 1.915059e-05,
               "Deviation": 1.6,
               "Distribution": "LogNormal"
             },
             {
-              "Mean": 5.486795E-05,
+              "Mean": 5.486795e-05,
               "Deviation": 1.6,
               "Distribution": "LogNormal"
             },
@@ -745,17 +745,17 @@
           "Points": [
             {
               "X": 0.0,
-              "Y": 1E-14,
+              "Y": 1e-14,
               "RestartSolver": false
             },
             {
               "X": 0.08333334,
-              "Y": 1.915059E-05,
+              "Y": 1.915059e-05,
               "RestartSolver": false
             },
             {
               "X": 0.1666667,
-              "Y": 5.486795E-05,
+              "Y": 5.486795e-05,
               "RestartSolver": false
             },
             {
@@ -918,7 +918,7 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
-          "Value": 4.0079365079E-05,
+          "Value": 4.0079365079e-05,
           "ValueOrigin": {}
         },
         {
@@ -1508,7 +1508,7 @@
           "Parameters": [
             {
               "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 1.24E-05,
+              "Value": 1.24e-05,
               "Unit": "cm/min",
               "ValueOrigin": {
                 "Source": "Publication",
@@ -2775,7 +2775,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -2811,6 +2811,96 @@
           "Name": "OATP1B1-Hanke 2021",
           "MoleculeName": "OATP1B1",
           "CompoundName": "Rifampicin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Dimensionless",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Rifampicin iv 600 mg (3 h) MD OD (7 days)-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rifampicin iv 600 mg (3 h) MD OD (7 days)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Acocella 1977 - mean 600 mg MD - Rifampicin - IV - 600 mg - Serum - agg. (n=5)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Acocella 1977 - mean 600 mg MD - Rifampicin - IV - 600 mg - Serum - agg. (n=5)|Time",
+              "Y": "Acocella 1977 - mean 600 mg MD - Rifampicin - IV - 600 mg - Serum - agg. (n=5)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Serum - agg. (n=6)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Serum - agg. (n=6)|Time",
+              "Y": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Serum - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Rifampicin iv 600 mg (3 h) MD OD (7 days)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Rifampicin-Model2\nRifampicin iv 600 mg (3 h) MD OD (7 days)\n2019-05-13 13:18"
         }
       ]
     },
@@ -2924,7 +3014,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -2960,6 +3050,74 @@
           "Name": "OATP1B1-Hanke 2021",
           "MoleculeName": "OATP1B1",
           "CompoundName": "Rifampicin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Rifampicin iv 300 mg (0.5 h)-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rifampicin iv 300 mg (0.5 h)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "sanofi-aventis U.S. LLC. 2013 - 300 mg - Rifampicin - IV - 300 mg - Plasma - agg. (n=12)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "sanofi-aventis U.S. LLC. 2013 - 300 mg - Rifampicin - IV - 300 mg - Plasma - agg. (n=12)|Time",
+              "Y": "sanofi-aventis U.S. LLC. 2013 - 300 mg - Rifampicin - IV - 300 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Rifampicin iv 300 mg (0.5 h)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Rifampicin-Model\nRifampicin iv 300 mg (0.5 h)\n2020-02-10 11:53"
         }
       ]
     },
@@ -3080,7 +3238,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -3116,6 +3274,162 @@
           "Name": "OATP1B1-Hanke 2021",
           "MoleculeName": "OATP1B1",
           "CompoundName": "Rifampicin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Dimensionless",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Rifampicin iv 300 mg (3 h)-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rifampicin iv 300 mg (3 h)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Nitti 1977 - 300 mg - Rifampicin - IV - 300 mg - Serum - agg. (n=2)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Nitti 1977 - 300 mg - Rifampicin - IV - 300 mg - Serum - agg. (n=2)|Time",
+              "Y": "Nitti 1977 - 300 mg - Rifampicin - IV - 300 mg - Serum - agg. (n=2)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Rifampicin iv 300 mg (3 h)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Rifampicin-Model\nRifampicin iv 300 mg (3 h)\n2020-02-10 11:53"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg",
+              "Dimension": "Amount",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Dimensionless",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Rifampicin iv 300 mg (3 h)-Rifampicin-Kidney-Urine-Amount in container",
+              "X": "Time",
+              "Y": "Rifampicin iv 300 mg (3 h)|Organism|Kidney|Urine|Rifampicin",
+              "CurveOptions": {
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Nitti 1977 - 300 mg - Rifampicin - IV - 300 mg - Urine - agg. (n=2)-Rifampicin-Kidney-Urine-ArithmeticMean",
+              "X": "Nitti 1977 - 300 mg - Rifampicin - IV - 300 mg - Urine - agg. (n=2)|Time",
+              "Y": "Nitti 1977 - 300 mg - Rifampicin - IV - 300 mg - Urine - agg. (n=2)|ObservedData|Kidney|Urine|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Rifampicin iv 300 mg (3 h) - Urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Rifampicin-Model\nRifampicin iv 300 mg (3 h)\n2020-02-10 11:53"
         }
       ]
     },
@@ -3236,7 +3550,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -3272,6 +3586,162 @@
           "Name": "OATP1B1-Hanke 2021",
           "MoleculeName": "OATP1B1",
           "CompoundName": "Rifampicin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Dimensionless",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Rifampicin iv 450 mg (3 h)-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rifampicin iv 450 mg (3 h)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Nitti 1977 - 450 mg - Rifampicin - IV - 450 mg - Serum - agg. (n=3)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Nitti 1977 - 450 mg - Rifampicin - IV - 450 mg - Serum - agg. (n=3)|Time",
+              "Y": "Nitti 1977 - 450 mg - Rifampicin - IV - 450 mg - Serum - agg. (n=3)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Rifampicin iv 450 mg (3 h)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Rifampicin-Model\nRifampicin iv 450 mg (3 h)\n2020-02-10 11:54"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg",
+              "Dimension": "Amount",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Dimensionless",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Rifampicin iv 450 mg (3 h)-Rifampicin-Kidney-Urine-Amount in container",
+              "X": "Time",
+              "Y": "Rifampicin iv 450 mg (3 h)|Organism|Kidney|Urine|Rifampicin",
+              "CurveOptions": {
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Nitti 1977 - 450 mg - Rifampicin - IV - 450 mg - Urine - agg. (n=3)-Rifampicin-Kidney-Urine-ArithmeticMean",
+              "X": "Nitti 1977 - 450 mg - Rifampicin - IV - 450 mg - Urine - agg. (n=3)|Time",
+              "Y": "Nitti 1977 - 450 mg - Rifampicin - IV - 450 mg - Urine - agg. (n=3)|ObservedData|Kidney|Urine|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Rifampicin iv 450 mg (3 h) - Urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Rifampicin-Model\nRifampicin iv 450 mg (3 h)\n2020-02-10 11:54"
         }
       ]
     },
@@ -3385,7 +3855,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -3421,6 +3891,74 @@
           "Name": "OATP1B1-Hanke 2021",
           "MoleculeName": "OATP1B1",
           "CompoundName": "Rifampicin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Rifampicin iv 600 mg (0.5 h)-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rifampicin iv 600 mg (0.5 h)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "sanofi-aventis U.S. LLC. 2013 - 600 mg - Rifampicin - IV - 600 mg - Plasma - agg. (n=12)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "sanofi-aventis U.S. LLC. 2013 - 600 mg - Rifampicin - IV - 600 mg - Plasma - agg. (n=12)|Time",
+              "Y": "sanofi-aventis U.S. LLC. 2013 - 600 mg - Rifampicin - IV - 600 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Rifampicin iv 600 mg (0.5 h)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Rifampicin-Model\nRifampicin iv 600 mg (0.5 h)\n2020-02-10 11:55"
         }
       ]
     },
@@ -3547,7 +4085,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -3583,6 +4121,173 @@
           "Name": "OATP1B1-Hanke 2021",
           "MoleculeName": "OATP1B1",
           "CompoundName": "Rifampicin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Dimensionless",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Rifampicin iv 600 mg (3 h)-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rifampicin iv 600 mg (3 h)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Serum - agg. (n=6)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Serum - agg. (n=6)|Time",
+              "Y": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Serum - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Rifampicin iv 600 mg (3 h)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Rifampicin-Model\nRifampicin iv 600 mg (3 h)\n2020-02-10 11:56"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg",
+              "Dimension": "Amount",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Dimensionless",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Rifampicin iv 600 mg (3 h)-Rifampicin-Kidney-Urine-Amount in container",
+              "X": "Time",
+              "Y": "Rifampicin iv 600 mg (3 h)|Organism|Kidney|Urine|Rifampicin",
+              "CurveOptions": {
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Acocella 1977 - mean 600 mg MD - Rifampicin - IV - 600 mg - Urine - agg. (n=5)-Rifampicin-Kidney-Urine-ArithmeticMean",
+              "X": "Acocella 1977 - mean 600 mg MD - Rifampicin - IV - 600 mg - Urine - agg. (n=5)|Time",
+              "Y": "Acocella 1977 - mean 600 mg MD - Rifampicin - IV - 600 mg - Urine - agg. (n=5)|ObservedData|Kidney|Urine|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Urine - agg. (n=6)-Rifampicin-Kidney-Urine-ArithmeticMean",
+              "X": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Urine - agg. (n=6)|Time",
+              "Y": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Urine - agg. (n=6)|ObservedData|Kidney|Urine|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Rifampicin iv 600 mg (3 h) - Urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Rifampicin-Model\nRifampicin iv 600 mg (3 h)\n2020-02-10 11:56"
         }
       ]
     },
@@ -3772,7 +4477,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -3808,6 +4513,140 @@
           "Name": "OATP1B1-Hanke 2021",
           "MoleculeName": "OATP1B1",
           "CompoundName": "Rifampicin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Rifampicin po 600 mg MD OD (7 days)-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rifampicin po 600 mg MD OD (7 days)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Blume 1989 - 600 mg REFERENZ - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Blume 1989 - 600 mg REFERENZ - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Blume 1989 - 600 mg REFERENZ - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Peloquin 1997 - 600 mg - Rifampicin - PO - 600 mg - Plasma - agg. (n=24)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Peloquin 1997 - 600 mg - Rifampicin - PO - 600 mg - Plasma - agg. (n=24)|Time",
+              "Y": "Peloquin 1997 - 600 mg - Rifampicin - PO - 600 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Serum - agg. (n=6)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Serum - agg. (n=6)|Time",
+              "Y": "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Serum - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Eon Labs Manufacturing, Inc. 1997 - 2X300mg Rifadine Tab - Rifampicin - PO - 600 mg - Plasma - agg. (n=36)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Eon Labs Manufacturing, Inc. 1997 - 2X300mg Rifadine Tab - Rifampicin - PO - 600 mg - Plasma - agg. (n=36)|Time",
+              "Y": "Eon Labs Manufacturing, Inc. 1997 - 2X300mg Rifadine Tab - Rifampicin - PO - 600 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Baneyx 2014 - Day 4 - 600 mg po MD - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Baneyx 2014 - Day 4 - 600 mg po MD - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Baneyx 2014 - Day 4 - 600 mg po MD - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Baneyx 2014 - Day 7 - 600 mg po MD - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Baneyx 2014 - Day 7 - 600 mg po MD - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Baneyx 2014 - Day 7 - 600 mg po MD - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Furesz 1970 - 600 mg - Rifampicin - PO - 600 mg - Serum - agg. (n=12)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Furesz 1970 - 600 mg - Rifampicin - PO - 600 mg - Serum - agg. (n=12)|Time",
+              "Y": "Furesz 1970 - 600 mg - Rifampicin - PO - 600 mg - Serum - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#C000C0",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Rifampicin po 600 mg MD OD (7 days)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Rifampicin-Model\nRifampicin po 600 mg MD OD (7 days)\n2020-02-10 12:00"
         }
       ]
     },
@@ -3939,7 +4778,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -3975,6 +4814,100 @@
           "Name": "OATP1B1-Hanke 2021",
           "MoleculeName": "OATP1B1",
           "CompoundName": "Rifampicin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -0.5800238,
+              "Max": 22.9674,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0214104,
+              "Max": 9.406103,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Rifampicin po 300 mg-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rifampicin po 300 mg|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chouchane 1995 - Rimactan - Rifampicin - PO - 300 mg - Plasma - agg. (n=12)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Chouchane 1995 - Rimactan - Rifampicin - PO - 300 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Chouchane 1995 - Rimactan - Rifampicin - PO - 300 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Chouchane 1995 - Rifampicin Generic - Rifampicin - PO - 300 mg - Plasma - agg. (n=12)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Chouchane 1995 - Rifampicin Generic - Rifampicin - PO - 300 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Chouchane 1995 - Rifampicin Generic - Rifampicin - PO - 300 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Furesz 1970 - 300 mg - Rifampicin - PO - 300 mg - Serum - agg. (n=5)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Furesz 1970 - 300 mg - Rifampicin - PO - 300 mg - Serum - agg. (n=5)|Time",
+              "Y": "Furesz 1970 - 300 mg - Rifampicin - PO - 300 mg - Serum - agg. (n=5)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Rifampicin po 300 mg",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Rifampicin-Model\nRifampicin po 300 mg\n2020-02-10 11:58"
         }
       ]
     },
@@ -4106,7 +5039,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -4142,6 +5075,96 @@
           "Name": "OATP1B1-Hanke 2021",
           "MoleculeName": "OATP1B1",
           "CompoundName": "Rifampicin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Rifampicin po 450 mg-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rifampicin po 450 mg|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Serum - agg. (n=5)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Serum - agg. (n=5)|Time",
+              "Y": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Serum - agg. (n=5)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Furesz 1970 - 450 mg - Rifampicin - PO - 450 mg - Serum - agg. (n=13)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Furesz 1970 - 450 mg - Rifampicin - PO - 450 mg - Serum - agg. (n=13)|Time",
+              "Y": "Furesz 1970 - 450 mg - Rifampicin - PO - 450 mg - Serum - agg. (n=13)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Blume 1989 - 450 mg REFERENZ - Rifampicin - PO - 450 mg - Plasma - agg. (n=8)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Blume 1989 - 450 mg REFERENZ - Rifampicin - PO - 450 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Blume 1989 - 450 mg REFERENZ - Rifampicin - PO - 450 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Rifampicin po 450 mg",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Rifampicin-Model\nRifampicin po 450 mg\n2020-02-10 11:58"
         }
       ]
     },
@@ -4298,7 +5321,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -4334,6 +5357,199 @@
           "Name": "OATP1B1-Hanke 2021",
           "MoleculeName": "OATP1B1",
           "CompoundName": "Rifampicin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -0.8250712,
+              "Max": 24.59259,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.03649712,
+              "Max": 16.19482,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Rifampicin po 600 mg-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rifampicin po 600 mg|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Peloquin 1997 - 600 mg - Rifampicin - PO - 600 mg - Plasma - agg. (n=24)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Peloquin 1997 - 600 mg - Rifampicin - PO - 600 mg - Plasma - agg. (n=24)|Time",
+              "Y": "Peloquin 1997 - 600 mg - Rifampicin - PO - 600 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Blume 1989 - 600 mg REFERENZ - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Blume 1989 - 600 mg REFERENZ - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Blume 1989 - 600 mg REFERENZ - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Serum - agg. (n=6)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Serum - agg. (n=6)|Time",
+              "Y": "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Serum - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Furesz 1970 - 600 mg - Rifampicin - PO - 600 mg - Serum - agg. (n=12)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Furesz 1970 - 600 mg - Rifampicin - PO - 600 mg - Serum - agg. (n=12)|Time",
+              "Y": "Furesz 1970 - 600 mg - Rifampicin - PO - 600 mg - Serum - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Eon Labs Manufacturing, Inc. 1997 - 2X300mg Rifadine Tab - Rifampicin - PO - 600 mg - Plasma - agg. (n=36)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Eon Labs Manufacturing, Inc. 1997 - 2X300mg Rifadine Tab - Rifampicin - PO - 600 mg - Plasma - agg. (n=36)|Time",
+              "Y": "Eon Labs Manufacturing, Inc. 1997 - 2X300mg Rifadine Tab - Rifampicin - PO - 600 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Eon Labs Manufacturing, Inc. 1997 - 2X300mg Tab (Eon) - Rifampicin - PO - 600 mg - Plasma - agg. (n=36)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Eon Labs Manufacturing, Inc. 1997 - 2X300mg Tab (Eon) - Rifampicin - PO - 600 mg - Plasma - agg. (n=36)|Time",
+              "Y": "Eon Labs Manufacturing, Inc. 1997 - 2X300mg Tab (Eon) - Rifampicin - PO - 600 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#800080",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Rifampicin po 600 mg",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Rifampicin\nRifampicin po 600 mg\n2021-05-04 19:29"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg",
+              "Dimension": "Amount",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Urine - agg. (n=6)-Rifampicin-Kidney-Urine-ArithmeticMean",
+              "X": "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Urine - agg. (n=6)|Time",
+              "Y": "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Urine - agg. (n=6)|ObservedData|Kidney|Urine|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Rifampicin-Kidney-Urine-Amount in container",
+              "X": "Time",
+              "Y": "Rifampicin po 600 mg|Organism|Kidney|Urine|Rifampicin",
+              "CurveOptions": {
+                "LegendIndex": 1
+              }
+            }
+          ],
+          "Name": "Rifampicin po 600 mg",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Rifampicin\nRifampicin po 600 mg\n2021-05-04 19:29"
         }
       ]
     },
@@ -4507,7 +5723,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -4543,6 +5759,247 @@
           "Name": "OATP1B1-Dixit 2007",
           "MoleculeName": "OATP1B1",
           "CompoundName": "Rifampicin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Rifampicin po 450 mg MD OD (7 days)-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rifampicin po 450 mg MD OD (7 days)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Serum - agg. (n=5)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Serum - agg. (n=5)|Time",
+              "Y": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Serum - agg. (n=5)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Acocella 1972a - day 7 - Rifampicin - PO - 450 mg - Serum - agg. (n=5)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Acocella 1972a - day 7 - Rifampicin - PO - 450 mg - Serum - agg. (n=5)|Time",
+              "Y": "Acocella 1972a - day 7 - Rifampicin - PO - 450 mg - Serum - agg. (n=5)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Rifampicin po 450 mg MD OD (7 days)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Rifampicin-Model\nRifampicin po 450 mg MD OD (7 days)\n2020-03-12 14:58"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 24.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg",
+              "Dimension": "Amount",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 100.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Dimensionless",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Rifampicin po 450 mg MD OD (7 days)-Rifampicin-Kidney-Urine-Amount in container",
+              "X": "Time",
+              "Y": "Rifampicin po 450 mg MD OD (7 days)|Organism|Kidney|Urine|Rifampicin",
+              "CurveOptions": {
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Urine - agg. (n=5)-Rifampicin-Kidney-Urine-ArithmeticMean",
+              "X": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Urine - agg. (n=5)|Time",
+              "Y": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Urine - agg. (n=5)|ObservedData|Kidney|Urine|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Rifampicin po 450 mg MD OD (7 days) - Urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Rifampicin-Model\nRifampicin po 450 mg MD OD (7 days)\n2020-03-12 14:58"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 24.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg",
+              "Dimension": "Amount",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 25.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Dimensionless",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Rifampicin po 450 mg MD OD (7 days)-Rifampicin-Gallbladder-Amount in container",
+              "X": "Time",
+              "Y": "Rifampicin po 450 mg MD OD (7 days)|Organism|Gallbladder|Rifampicin",
+              "CurveOptions": {
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Bile - agg. (n=5)-Rifampicin-Liver-Undefined-ArithmeticMean",
+              "X": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Bile - agg. (n=5)|Time",
+              "Y": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Bile - agg. (n=5)|ObservedData|Liver|Undefined|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Rifampicin po 450 mg MD OD (7 days) - Bile",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Rifampicin-Model\nRifampicin po 450 mg MD OD (7 days)\n2020-03-12 14:58"
         }
       ]
     },
@@ -4755,7 +6212,7 @@
           "Name": "Fold-change in concentration"
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -4791,6 +6248,154 @@
           "Name": "OATP1B1-Dixit 2007",
           "MoleculeName": "OATP1B1",
           "CompoundName": "Rifampicin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Dimensionless",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "CYP3A4-Liver Periportal-Intracellular-Fold-change in concentration",
+              "X": "Time",
+              "Y": "Rifampicin po 600 mg MD OD (16 days)|Organism|Liver|Periportal|Intracellular|CYP3A4|Fold-change in concentration",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Intracellular - agg. (n=8)-ObservedData-Duodenum-Intracellular-CYP3A4-ArithmeticMean",
+              "X": "Greiner 1999 - CYP3A4 western blot duodenal biopsy (fold-change) - CYP3A4 - PO - 600 mg - Duodenum|Intracellular - agg. (n=8)|Time",
+              "Y": "Greiner 1999 - CYP3A4 western blot duodenal biopsy (fold-change) - CYP3A4 - PO - 600 mg - Duodenum|Intracellular - agg. (n=8)|ObservedData|Duodenum|Intracellular|CYP3A4|ArithmeticMean",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF00FF",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Intracellular - agg. (n=8)-ObservedData-Duodenum-Intracellular-P-gp-ArithmeticMean",
+              "X": "Greiner 1999 - Pg-p western blot duodenal biopsy (fold-change) - P-gp - PO - 600 mg - Duodenum|Intracellular - agg. (n=8)|Time",
+              "Y": "Greiner 1999 - Pg-p western blot duodenal biopsy (fold-change) - P-gp - PO - 600 mg - Duodenum|Intracellular - agg. (n=8)|ObservedData|Duodenum|Intracellular|P-gp|ArithmeticMean",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF0000",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Intracellular - agg. (n=8)-ObservedData-Duodenum-Intracellular-P-gp-ArithmeticMean",
+              "X": "Westphal 2000 - Pg-p western blot duodenal biopsy (fold-change) - P-gp - PO - 600 mg - Duodenum|Intracellular - agg. (n=8)|Time",
+              "Y": "Westphal 2000 - Pg-p western blot duodenal biopsy (fold-change) - P-gp - PO - 600 mg - Duodenum|Intracellular - agg. (n=8)|ObservedData|Duodenum|Intracellular|P-gp|ArithmeticMean",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF0000",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "CYP3A4-Upper Jejunum-Intracellular-Fold-change in concentration",
+              "X": "Time",
+              "Y": "Rifampicin po 600 mg MD OD (16 days)|Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Fold-change in concentration",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#008000",
+                "LegendIndex": 5,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "CYP3A4-Duodenum-Intracellular-Fold-change in concentration",
+              "X": "Time",
+              "Y": "Rifampicin po 600 mg MD OD (16 days)|Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Fold-change in concentration",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "P-gp-Duodenum-Intracellular-Fold-change in concentration",
+              "X": "Time",
+              "Y": "Rifampicin po 600 mg MD OD (16 days)|Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|P-gp|Fold-change in concentration",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF0000",
+                "LegendIndex": 6,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rifampicin po 600 mg MD OD (16 days)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "LegendIndex": 1
+              }
+            }
+          ],
+          "Name": "Rifampicin po 600 mg MD OD (7 days)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Rifampicin\nRifampicin po 600 mg MD OD (16 days)\n2021-05-04 12:53"
         }
       ]
     },
@@ -4957,7 +6562,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Kajosaari 2005",
@@ -4994,6 +6599,86 @@
           "MoleculeName": "OATP1B1",
           "CompoundName": "Rifampicin"
         }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Dimensionless",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rifampicin po 600 mg Chattopadhyay 2018|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chattopadhyay 2018 - Rifampicin - Rifampicin - PO - 600 mg - Plasma - agg. (n=11)-Rifampicin-Peripheral Venous Blood-Plasma-GeometricMean",
+              "X": "Chattopadhyay 2018 - Rifampicin - Rifampicin - PO - 600 mg - Plasma - agg. (n=11)|Time",
+              "Y": "Chattopadhyay 2018 - Rifampicin - Rifampicin - PO - 600 mg - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|GeometricMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Rifampicin\nRifampicin po 600 mg Chattopadhyay 2018\n2021-05-05 10:48"
+        }
       ]
     }
   ],
@@ -5028,12 +6713,12 @@
             },
             {
               "Name": "xtol",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Type": "Double"
             },
             {
@@ -5053,7 +6738,7 @@
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09,
+              "Value": 1e-09,
               "Type": "Double"
             }
           ]
@@ -5428,13 +7113,13 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 1.24E-05,
+              "Value": 1.24e-05,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 3.48E-07,
+              "Value": 3.48e-07,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
@@ -6142,12 +7827,12 @@
             },
             {
               "Name": "xtol",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Type": "Double"
             },
             {
@@ -6167,7 +7852,7 @@
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09,
+              "Value": 1e-09,
               "Type": "Double"
             }
           ]
@@ -6542,13 +8227,13 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 1.66E-05,
+              "Value": 1.66e-05,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 3.48E-07,
+              "Value": 3.48e-07,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
@@ -7257,12 +8942,12 @@
             },
             {
               "Name": "xtol",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Type": "Double"
             },
             {
@@ -7282,7 +8967,7 @@
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09,
+              "Value": 1e-09,
               "Type": "Double"
             }
           ]
@@ -7668,13 +9353,13 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 1.24E-05,
+              "Value": 1.24e-05,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 3.48E-07,
+              "Value": 3.48e-07,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
@@ -8546,7 +10231,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 822.94,
-            "LLOQ": 4E-07
+            "LLOQ": 4e-07
           },
           "Values": [
             0.2,
@@ -8702,10 +10387,10 @@
             "MolWeight": 822.94
           },
           "Values": [
-            2.575E-05,
-            6.582E-05,
-            8.8725996E-05,
-            9.7737E-05,
+            2.575e-05,
+            6.582e-05,
+            8.8725996e-05,
+            9.7737e-05,
             0.000109967004
           ],
           "Dimension": "Mass",
@@ -8839,11 +10524,11 @@
             "MolWeight": 822.94
           },
           "Values": [
-            2.044E-05,
-            4.632E-05,
-            6.414E-05,
-            7.4045E-05,
-            7.9163E-05
+            2.044e-05,
+            4.632e-05,
+            6.414e-05,
+            7.4045e-05,
+            7.9163e-05
           ],
           "Dimension": "Mass",
           "Unit": "kg"
@@ -8976,11 +10661,11 @@
             "MolWeight": 822.94
           },
           "Values": [
-            6.23E-06,
-            2.107E-05,
-            2.6945E-05,
-            3.1215E-05,
-            3.296E-05
+            6.23e-06,
+            2.107e-05,
+            2.6945e-05,
+            3.1215e-05,
+            3.296e-05
           ],
           "Dimension": "Mass",
           "Unit": "kg"
@@ -14221,7 +15906,7 @@
                 "MolWeight": 822.94
               },
               "Values": [
-                1.6994116E-05
+                1.6994116e-05
               ],
               "Dimension": "Mass",
               "Unit": "kg"
@@ -14236,7 +15921,7 @@
             "MolWeight": 822.94
           },
           "Values": [
-            6.8910005E-05
+            6.8910005e-05
           ],
           "Dimension": "Mass",
           "Unit": "kg"
@@ -14365,9 +16050,9 @@
             "MolWeight": 822.94
           },
           "Values": [
-            9.009E-05,
-            7.4970005E-05,
-            8.011E-05
+            9.009e-05,
+            7.4970005e-05,
+            8.011e-05
           ],
           "Dimension": "Mass",
           "Unit": "kg"
@@ -14498,9 +16183,9 @@
             "MolWeight": 822.94
           },
           "Values": [
-            5.183E-05,
-            6.361E-05,
-            5.6880002E-05
+            5.183e-05,
+            6.361e-05,
+            5.6880002e-05
           ],
           "Dimension": "Mass",
           "Unit": "kg"
@@ -14631,9 +16316,9 @@
             "MolWeight": 822.94
           },
           "Values": [
-            5.179E-05,
-            2.942E-05,
-            9.584E-05
+            5.179e-05,
+            2.942e-05,
+            9.584e-05
           ],
           "Dimension": "Mass",
           "Unit": "kg"
@@ -14764,9 +16449,9 @@
             "MolWeight": 822.94
           },
           "Values": [
-            7.975E-05,
-            4.431E-05,
-            1.5470001E-05
+            7.975e-05,
+            4.431e-05,
+            1.5470001e-05
           ],
           "Dimension": "Mass",
           "Unit": "kg"
@@ -14897,9 +16582,9 @@
             "MolWeight": 822.94
           },
           "Values": [
-            7.107E-05,
-            5.871E-05,
-            2.3379998E-05
+            7.107e-05,
+            5.871e-05,
+            2.3379998e-05
           ],
           "Dimension": "Mass",
           "Unit": "kg"
@@ -17087,7 +18772,7 @@
                 "MolWeight": 822.94
               },
               "Values": [
-                5.0798422E-05
+                5.0798422e-05
               ],
               "Dimension": "Mass",
               "Unit": "kg"
@@ -17234,7 +18919,7 @@
                 "MolWeight": 822.94
               },
               "Values": [
-                1.641158E-05
+                1.641158e-05
               ],
               "Dimension": "Mass",
               "Unit": "kg"
@@ -17249,7 +18934,7 @@
             "MolWeight": 822.94
           },
           "Values": [
-            8.97E-05
+            8.97e-05
           ],
           "Dimension": "Mass",
           "Unit": "kg"
@@ -17690,17 +19375,17 @@
             "MolWeight": 822.94
           },
           "Values": [
-            1.9811127E-06,
-            7.983716E-06,
-            1.4129173E-05,
-            1.9129402E-05,
-            3.329386E-05,
-            4.216005E-05,
-            4.687354E-05,
-            5.1730574E-05,
-            5.429612E-05,
-            5.7148063E-05,
-            5.97E-05
+            1.9811127e-06,
+            7.983716e-06,
+            1.4129173e-05,
+            1.9129402e-05,
+            3.329386e-05,
+            4.216005e-05,
+            4.687354e-05,
+            5.1730574e-05,
+            5.429612e-05,
+            5.7148063e-05,
+            5.97e-05
           ],
           "Dimension": "Mass",
           "Unit": "kg"
@@ -17839,16 +19524,16 @@
             "MolWeight": 822.94
           },
           "Values": [
-            1.1127852E-06,
-            2.6796558E-06,
-            4.6774935E-06,
-            7.105263E-06,
-            9.103101E-06,
-            1.1818642E-05,
-            1.3816134E-05,
-            1.6100708E-05,
-            1.8815905E-05,
-            2.0899999E-05
+            1.1127852e-06,
+            2.6796558e-06,
+            4.6774935e-06,
+            7.105263e-06,
+            9.103101e-06,
+            1.1818642e-05,
+            1.3816134e-05,
+            1.6100708e-05,
+            1.8815905e-05,
+            2.0899999e-05
           ],
           "Dimension": "Mass",
           "Unit": "kg"
@@ -19044,7 +20729,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 822.94,
-            "LLOQ": 4E-07
+            "LLOQ": 4e-07
           },
           "Values": [
             8.9,
@@ -20893,7 +22578,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 822.94,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             1.333521,
@@ -21210,7 +22895,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 822.94,
-            "LLOQ": 5E-09
+            "LLOQ": 5e-09
           },
           "Values": [
             0.060568426,
