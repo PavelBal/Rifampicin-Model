@@ -1,6 +1,7 @@
 {
   "Name": "Rifampicin-Model",
   "Version": 81,
+  "ApplicationName": "PK-Sim",
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -23420,6 +23421,5 @@
         "Rifampicin po 600 mg Chattopadhyay 2018"
       ]
     }
-  ],
-  "ApplicationName": "PK-Sim"
+  ]
 }
