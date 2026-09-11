@@ -2679,50 +2679,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|iv 600 mg (3 h) MD OD (7 days)|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 180.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|iv 600 mg (3 h) MD OD (7 days)|No formulation|Application_2|ProtocolSchemaItem|Infusion time",
-          "Value": 180.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|iv 600 mg (3 h) MD OD (7 days)|No formulation|Application_3|ProtocolSchemaItem|Infusion time",
-          "Value": 180.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|iv 600 mg (3 h) MD OD (7 days)|No formulation|Application_4|ProtocolSchemaItem|Infusion time",
-          "Value": 180.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|iv 600 mg (3 h) MD OD (7 days)|No formulation|Application_5|ProtocolSchemaItem|Infusion time",
-          "Value": 180.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|iv 600 mg (3 h) MD OD (7 days)|No formulation|Application_6|ProtocolSchemaItem|Infusion time",
-          "Value": 180.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|iv 600 mg (3 h) MD OD (7 days)|No formulation|Application_7|ProtocolSchemaItem|Infusion time",
-          "Value": 180.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Rifampicin"
@@ -2960,14 +2916,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|iv 300 mg (0.5 h)|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 30.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)"
       ],
@@ -3176,14 +3124,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|iv 300 mg (3 h)|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 180.0,
-          "Unit": "min",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3490,14 +3430,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|iv 450 mg (3 h)|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 180.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Rifampicin"
@@ -3801,14 +3733,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|iv 600 mg (0.5 h)|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 30.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)"
       ],
@@ -4018,14 +3942,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|iv 600 mg (3 h)|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 180.0,
-          "Unit": "min",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -4351,50 +4267,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|po 600 mg MD OD (7 days)|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 600 mg MD OD (7 days)|Oral solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 600 mg MD OD (7 days)|Oral solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 600 mg MD OD (7 days)|Oral solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 600 mg MD OD (7 days)|Oral solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 600 mg MD OD (7 days)|Oral solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 600 mg MD OD (7 days)|Oral solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)"
       ],
@@ -4708,14 +4580,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|po 300 mg|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)"
       ],
@@ -4969,14 +4833,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|po 450 mg|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)"
       ],
@@ -5228,14 +5084,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|po 600 mg|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -5608,50 +5456,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|po 450 mg MD OD (7 days)|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 450 mg MD OD (7 days)|Oral solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 450 mg MD OD (7 days)|Oral solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 450 mg MD OD (7 days)|Oral solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 450 mg MD OD (7 days)|Oral solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 450 mg MD OD (7 days)|Oral solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 450 mg MD OD (7 days)|Oral solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -6037,104 +5841,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_15|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_16|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|po 600 mg MD OD (16 days)|Oral solution|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
         "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Fold-change in concentration",
@@ -6433,74 +6139,6 @@
               }
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|Chattopadhyay 2018 - Rifampicin - 600 mg MD 11 days|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Chattopadhyay 2018 - Rifampicin - 600 mg MD 11 days|Oral solution|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Chattopadhyay 2018 - Rifampicin - 600 mg MD 11 days|Oral solution|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Chattopadhyay 2018 - Rifampicin - 600 mg MD 11 days|Oral solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Chattopadhyay 2018 - Rifampicin - 600 mg MD 11 days|Oral solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Chattopadhyay 2018 - Rifampicin - 600 mg MD 11 days|Oral solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Chattopadhyay 2018 - Rifampicin - 600 mg MD 11 days|Oral solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Chattopadhyay 2018 - Rifampicin - 600 mg MD 11 days|Oral solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Chattopadhyay 2018 - Rifampicin - 600 mg MD 11 days|Oral solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Chattopadhyay 2018 - Rifampicin - 600 mg MD 11 days|Oral solution|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Chattopadhyay 2018 - Rifampicin - 600 mg MD 11 days|Oral solution|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
